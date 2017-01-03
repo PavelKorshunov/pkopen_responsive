@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>pkopen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="icon" type="image/png" href="images/min-logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="js/scrollanimation.js"></script>
+	<script src="js/mail.js"></script>
+</head>
+<body>
+
+<!--Header-->
+
+	<div id="navigation">
+		<div class="nav">
+			<ul>
+				<li><a href="#content">Top</a></li>
+				<li><a href="#my_work">Work</a></li>
+				<li class="logo"><a href="/"><h1>pkopen</h1></a></li>
+				<li><a href="#my_portfolio">Portfolio</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+<!--Content-->
+
+	<div id="content">
+		<div class="information row">
+			<div class="about_me">
+				<div class="my_photo col_4">
+					<img src="images/me.jpg">
+				</div>
+				<div class="my_inform col_5">
+					<h2>Привет!<strong> Я Павел.</strong></h2>
+					<p>Я занимаюсь веб-разработкой. Если у вас появилось желание сделать свою Landing page страничку, то я готов вам в этом помочь!</p>
+					<a href="#my_work"><button>Посмотреть что я умею</button></a>
+				</div>
+			</div>
+		</div>
+		<div id="my_work" class="my_work row">
+			<div class="wrapper">
+				<h3>Какие услуги могу предоставить</h3>
+				<p>Ниже представлен перечень услуг, которые я могу предоставить</p>
+				<div class="block col_3">
+					<div class="work_icon" alt="page">
+						<img src="images/page.png">
+					</div>
+					<h4>Landing page</h4>
+					<p>Нужна целевая страница. 
+					Я готов вам в этом помочь!</p>
+				</div>
+				<div class="block col_3">
+					<div class="work_icon">
+						<img src="images/like.png" alt="like">
+					</div>
+					<h4>Free project</h4>
+					<p>Если ваш проект меня заинтересует. 
+					Я выполню его бесплатно!</p>
+				</div>
+				<div class="block col_3">
+					<div class="work_icon">
+						<img src="images/design.png" alt="design">
+					</div>
+					<h4>Your design</h4>
+					<p>Верстка дизайна по вашему желанию
+					и вашим предпочтениям!</p>
+				</div>
+				<footer>
+					<a href="#my_portfolio"><button>Перейти к портфолио</button></a>
+				</footer>
+			</div>
+		</div>
+		<div id="my_portfolio" class="my_portfolio row">
+			<div class="wrapper">
+				<h3>Мои выполненные работы</h3>
+				<p>Здесь можно увидеть работы выполненные мной</p>
+				<div class="block col_3">
+					<img src="images/soccerlove.jpg">
+					<p>http://pavelkorshunov.<br>github.io/soccerlove/</p>
+				</div>
+				<div class="block col_3">
+					<img src="images/pkopen.jpg">
+					<p>http://pavelkorshunov.<br>github.io/pkopen/</p>
+				</div>
+				<div class="block col_3">
+					<img src="images/tzmaket.jpg">
+					<p>Сверстал простой макет в соответствии с тз</p>
+				</div>
+				<footer>
+					<a href="#footer"><button>Связаться со мной</button></a>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+
+	<div id="footer">
+		<div class="contact">
+			<div class="contact_form row">
+				<p>Связаться со мной</p>
+				<form id="form" method="post">
+				<input id="name" type="name" name="name" placeholder="Name" required>
+				<input id="email" type="email" name="email" placeholder="Email" required>
+				<textarea name="message" placeholder="Message" required></textarea>
+					<ul class="buttons">
+						<li><input type="submit" value="Отправить"></li>
+						<li><input type="reset" value="Очистить"></li>
+					</ul>
+				</form>
+			</div>
+			<div class="find_me_on">
+				<p>Найти меня в ...</p>
+				<div class="social_networks">
+					<a class="icon vkontakte" href="http://vk.com/ampec" target="_blank" ></a>
+					<a class="icon facebook" href="https://www.facebook.com/ampec" target="_blank"></a>
+					<a class="icon twitter" href="https://twitter.com/RealAmPeC" target="_blank"></a>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Produced by <a href="http://vk.com/ampec" target="_blank">Pavel Korshunov</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
